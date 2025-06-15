@@ -42,7 +42,7 @@ See the full project proposal—problem statement, goals, methodology, dataset p
 **Prerequisites:**
 - Python 3.9+ installed  
 - `requirements.txt`  
-- Your ML model code in `main.py` (or equivalent)
+- ML model code in `main.py` (or equivalent)
 
 **Steps to run the backend:**  
 ````markdown
