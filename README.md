@@ -11,13 +11,19 @@
 ````markdown
 
 python -m venv venv
-
+````
 # Windows
+````markdown
+
 venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+````
 
 # macOS/Linux
-# source venv/bin/activate
+````markdown
 
+# source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
 ````
