@@ -1,4 +1,3 @@
-````markdown
 ## 📥 Plantly Project - Setup & Execution Guide
 
 ### 1. Backend (FastAPI + ML Model)
@@ -9,6 +8,7 @@
 - Your ML model code in `main.py` (or equivalent)
 
 **Steps to run the backend:**  
+````markdown
 
 python -m venv venv
 
