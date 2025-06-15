@@ -52,3 +52,38 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+2. Frontend (React / Next.js + Tailwind CSS)
+✅ Prerequisites:
+
+Node.js + npm installed
+
+React (or Next.js) app scaffolded under /frontend/
+
+**🚀 Steps to Run Frontend:**
+
+'''bash
+cd frontend
+npm install
+npm run dev
+Open your browser at: http://localhost:3000
+
+3. How It Works Together
+User opens http://localhost:3000 (React app)
+
+Uploads a plant image
+React sends POST to FastAPI:
+
+'''bash
+http://localhost:8000/identify-plant
+FastAPI returns JSON:
+
+json
+{
+  "plant": "Rose",
+  "description": "...",
+  "care": { /* watering, sunlight, soil, etc. */ }
+}
+React displays the plant name, description, and care tips
+
+Now you’re all set to run Plantly end-to-end! 🌱
