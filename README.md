@@ -1,3 +1,4 @@
+
 # Plantly: Smart Plant Care Companion
 
 **Plantly** is a full-stack semester project that lets you:
@@ -42,7 +43,7 @@ See the full project proposal—problem statement, goals, methodology, dataset p
 **Prerequisites:**
 - Python 3.9+ installed  
 - `requirements.txt`  
-- ML model code in `main.py` (or equivalent)
+- Your ML model code in `main.py` (or equivalent)
 
 **Steps to run the backend:**  
 ````markdown
